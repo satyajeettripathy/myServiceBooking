@@ -137,6 +137,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
+#This comment is just to test commits
 
 
 # Static files (CSS, JavaScript, Images)
